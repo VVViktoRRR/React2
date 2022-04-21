@@ -11,7 +11,8 @@ const PostComments = () => {
     }, [id])
     return (
         <div>
-            {/*<h2>PostComments:</h2>*/}
+            <h2>Post Comments:</h2>
+            <hr></hr>
                 <div>
                     {
                         comments.map(comment => <div key={comment.id}>
