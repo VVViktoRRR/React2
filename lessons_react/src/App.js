@@ -1,9 +1,11 @@
 import './App.css';
+import {Cats, CatsForm} from "./components";
 
 function App() {
   return (
     <div>
-<h1> Hi  Viktor </h1>
+         <CatsForm/>
+         <Cats/>
     </div>
   );
 }
